@@ -26,6 +26,6 @@ title('Sine Wave');
 grid on;
 ```
 
-![sine_wave_plt.png](sine_wave_plot)
+![Sine Wave](sine_wave_plot.png)
 
 
