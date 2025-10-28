@@ -1,4 +1,4 @@
-# NR Cell Search and MIB/SIB1 Recovery (MATLAB)
+# 5G NR Cell Search and MIB/SIB1 Recovery
 
 This README documents a MATLAB 5G NR initial-access receiver that synchronizes to a gNodeB signal, decodes the MIB, blindly decodes PDCCH with SI‑RNTI, and recovers SIB1 over PDSCH using 5G Toolbox workflows. It summarizes what the project does, the implementation steps, quantitative results, and key learnings for reproducibility and resume-ready reporting.[1]
 
@@ -46,16 +46,9 @@ This README documents a MATLAB 5G NR initial-access receiver that synchronizes t
 - Keep CORESET 0 bandwidth checks against sample rate to ensure the demodulation grid covers the entire control region for the configured numerology.[1]
 
 ### References
+- Related MathWorks materials on NR cell search and HDL workflows can provide hardware-oriented perspectives for SSB detection and MIB recovery if targeting FPGA/ASIC implementations.[2]
 - MathWorks 5G Toolbox example: NR Cell Search and MIB and SIB1 Recovery, covering SS-burst generation, synchronization, PBCH/BCH/MIB parsing, Type0-PDCCH CSS, and SIB1 decoding flow.[1]
-- Related MathWorks materials on NR cell search and HDL workflows can provide hardware-oriented perspectives for SSB detection and MIB recovery if targeting FPGA/ASIC implementations.[2][6]
 
 [1](https://www.mathworks.com/help/5g/ug/nr-cell-search-and-mib-and-sib1-recovery.html)
 [2](https://www.mathworks.com/help/wireless-hdl/ug/nr-hdl-cell-search.html)
-[3](https://www.mathworks.com/videos/5g-nr-hdl-cell-search-reference-application-1582536205137.html)
-[4](https://www.mathworks.com/help/wireless-hdl/gs/intro-to-5G-signal-detection.html)
-[5](https://www.youtube.com/watch?v=R8kHq9wah3I)
-[6](https://www.mathworks.com/help/wireless-hdl/ug/nr-hdl-cell-search-and-mib-recovery-ml-ref.html)
-[7](https://www.youtube.com/watch?v=h84CvcEc2U4)
-[8](https://www.mathworks.com/help/5g/index.html)
-[9](https://www.mathworks.com/help/5g/ug/nr-cell-performance-evaluation-with-physical-layer-integration.html)
-[10](https://www.mathworks.com/videos/5g-explained-initial-acquisition-procedures-in-5g-nr-1577445354545.html)
+
