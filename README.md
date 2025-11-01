@@ -1,4 +1,4 @@
-# NR Cell Search and MIB/SIB1 Recovery
+# 5G NR SSB, Cell Search and MIB/SIB1 Recovery
 
 This project implements a 5G NR initial‑access receiver that synchronizes to a gNodeB, decodes the MIB from PBCH, blindly decodes PDCCH using SI‑RNTI, and recovers SIB1 on PDSCH. It documents the end‑to‑end pipeline, SS burst pattern and generation, roles of PSS/SSS/PBCH/DM‑RS, quantitative metrics, and repeatable steps for running the receiver on generated waveforms.
 
