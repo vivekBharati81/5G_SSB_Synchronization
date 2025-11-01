@@ -4,7 +4,7 @@ This project implements a 5G NR initial‑access receiver that synchronizes to a
 
 ### Overview
 - Performs cell search and system information acquisition: PSS‑based coarse CFO and timing, SSS correlation for cell identity, PBCH DM‑RS–assisted equalization and BCH decoding for MIB, CORESET 0 derivation, blind PDCCH decode with SI‑RNTI, and PDSCH LDPC decoding of SIB1 with CRC checks.
-- Supports both captured I/Q inputs and locally generated SS‑burst + SIB1 signals via nrWaveformGenerator, enabling controlled AWGN experiments and feature validation before moving to live data.
+- Supports locally generated SS‑burst + SIB1 signals via nrWaveformGenerator, enabling controlled AWGN experiments and feature validation before moving to live data.
 
 ### SS block and SS burst
 - An SS/PBCH block (SSB) contains the PSS, SSS, PBCH, and PBCH DM‑RS, and in the example spans 20 RBs (240 subcarriers) across 4 OFDM symbols in the SSB numerology, with nrbSSB = 20 used for OFDM info and extraction.
