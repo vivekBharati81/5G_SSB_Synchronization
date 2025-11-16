@@ -53,6 +53,3 @@ This project implements a 5G NR initial‑access receiver that synchronizes to a
 
 [1](https://www.mathworks.com/help/5g/ug/nr-cell-search-and-mib-and-sib1-recovery.html)
 [2](https://www.mathworks.com/help/5g/gs/synchronization-signal-blocks-and-bursts.html)
-
-[19](https://www.scribd.com/document/935581306/MATLAB-5G-Toolbox-Users-Guide-R2021b-Coll-Z-Library)
-[20](https://www.mathworks.com/videos/5g-explained-synchronization-signal-blocks-in-5g-nr-1577445332091.html)
